@@ -7,7 +7,8 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-genai.configure(api_key=os.getenv("Google_api_key"))
+
+genai.configure(api_key=st.secrets["Google_api_key"])
 
 def get_gemini_response(input_text):
     model = genai.GenerativeModel('gemini-1.5-flash')
