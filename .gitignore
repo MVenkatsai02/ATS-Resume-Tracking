@@ -1,0 +1,41 @@
+# Ignore environment variables and API keys
+.env
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environments
+venv/
+env/
+*.venv/
+
+# Ignore package dependencies
+*.log
+*.lock
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled Cython files
+*.so
+
+# Ignore PDF resumes uploaded by users
+*.pdf
+
+# Ignore Streamlit cache
+.streamlit/
+db.sqlite3  # If using SQLite
